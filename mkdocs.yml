@@ -1,0 +1,63 @@
+site_name: DATC Data Hub
+site_description: Learning paths and competency frameworks for the DATC Data Platform (DEVI)
+site_author: DATC Data Platform Team
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/accenture-logo.png
+  favicon: assets/accenture-favicon.ico
+  palette:
+    primary: deep purple
+    accent: deep purple
+  font:
+    text: Roboto
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.expand
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - stylesheets/accenture.css
+
+extra_javascript:
+  - js/competency-tracker.js
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - AI Competency:
+    - ai-competency/index.md
+    - AI Data Engineering: ai-competency/ai-data-engineering.md
+    - AI Data Analytics: ai-competency/ai-data-analytics.md
+  - Domains:
+    - domains/index.md
+    - Data Engineering: domains/data-engineering.md
+    - Data Analytics: domains/data-analytics.md
+  - Assets: assets/index.md
+
+extra:
+  generator: false
+
+copyright: "&copy; Copyright © 2026 Accenture. All rights reserved."

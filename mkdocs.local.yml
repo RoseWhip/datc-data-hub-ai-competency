@@ -1,0 +1,14 @@
+INHERIT: mkdocs.yml
+
+nav:
+  - Home: index.md
+  - AI Competency:
+    - ai-competency/index.md
+    - AI Data Engineering: ai-competency/ai-data-engineering.md
+    - AI Data Analytics: ai-competency/ai-data-analytics.md
+  - Domains:
+    - domains/index.md
+    - Data Engineering: domains/data-engineering.md
+    - Data Analytics: domains/data-analytics.md
+  - Assets: assets/index.md
+  - Sandbox: working/sandbox.md
