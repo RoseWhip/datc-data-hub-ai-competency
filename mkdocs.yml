@@ -55,8 +55,7 @@ nav:
     - domains/index.md
     - Data Engineering: domains/data-engineering.md
     - Data Analytics: domains/data-analytics.md
-  - Assets: assets/index.md
-
+    - Assets: assets/index.md
 extra:
   generator: false
 

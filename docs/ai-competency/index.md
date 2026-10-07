@@ -4,6 +4,10 @@ This page reference how every practitioner in Data Engineering and Data Analytic
 It covers the proficiency scale, required levels by role, domain-specific guidance, and curated learning paths.
 Data Engineering builds the foundation. Data Analytics delivers the insight. Both are essential and both must evolve with AI.
 
+### My AI Proficiency Level
+
+[Update my proficiency level →](https://forms.cloud.microsoft/r/97G6CwDtxv){ .ps-update-link target="_blank" }
+
 
 ## AI Integration by Domain
 

@@ -597,41 +597,9 @@ Courses, certifications, self-assessments, and badges may support an assessment,
 
 ---
 
-### Framework Governance
-
-This framework is intended to evolve through practical use.
-
-Review cycle: after initial pilot assessments · when major platform capabilities change · when new security, privacy, regulatory, or client requirements emerge · when assessors interpret levels inconsistently · at least annually.
-
-Framework owners are responsible for maintaining proficiency definitions, approving changes, validating assessor guidance, curating evidence examples, resolving level-calibration questions, retiring outdated tools or training, and communicating framework changes.
-
-Versioning: each published version records version number · publication date · framework owner · summary of changes · approved exceptions · next planned review date.
-
-Continuous improvement: feedback from practitioners, assessors, platform owners, security teams, governance teams, and delivery leadership is captured and used to improve role descriptions, level boundaries, evidence requirements, training recommendations, governance controls, and platform-specific implementation guidance.
-
 ??? warning "Initial adoption"
 
     During the initial adoption period, proficiency decisions should be treated as calibrated development assessments rather than permanent labels. The purpose of the framework is to clarify expectations, guide learning, and build trusted capability. Changes are expected once the framework is used in real assessments and real projects.
-### My AI Proficiency Level
-
-???+ success "Your recommended level"
-    Based on the courses and evidence you have confirmed above, your recommended level is calculated automatically.
-
-    The link below opens the Power Apps tool where you can officially update your level in the team tracker.
-
-    [Update my proficiency level in Power Apps →](https://apps.powerapps.com/play/e/default-e0793d39-0939-496d-b129-198edd916feb/a/1ebb5678-2daf-410b-9987-241ca4c1bf31?tenantId=e0793d39-0939-496d-b129-198edd916feb&hint=aa9dd1a0-47d8-4647-92f4-b5a98d6ddb93&sourcetime=1788268219883&source=portal){ .ps-update-link target="_blank" }
-
-<div class="proficiency-summary"
-     data-p1-mandatory='["de-p1-tq-agentic","de-p1-github-copilot","de-p1-agent-awareness"]'
-     data-p2-mandatory='["de-p2-reinvention","de-p2-3a","de-p2-3b","de-p2-snowflake-foundations","de-p2-snowflake-coco"]'
-     data-p3-mandatory='["de-p3-agentic-deep-dive","de-p3-agent-engineering","de-p3-ai-evaluation","de-p3-ai-security","de-p3-platform-ai"]'
-     data-p4-mandatory='["de-p4-agentic-arch","de-p4-responsible-ai","de-p4-platform-ops","de-p4-ai-strategy","de-p4-leadership"]'
-     data-p5-ids='["de-p5-strategy","de-p5-governance","de-p5-operating-model","de-p5-roadmap","de-p5-adoption","de-p5-standards","de-p5-outcomes","de-p5-sponsorship","de-p5-thought-leadership","de-p5-maintenance"]'
-     data-p5-threshold="3"
-     data-update-url="https://apps.powerapps.com/play/e/default-e0793d39-0939-496d-b129-198edd916feb/a/1ebb5678-2daf-410b-9987-241ca4c1bf31?tenantId=e0793d39-0939-496d-b129-198edd916feb&hint=aa9dd1a0-47d8-4647-92f4-b5a98d6ddb93&sourcetime=1788268219883&source=portal">
-</div>
-
----
 
 ### Summary
 
