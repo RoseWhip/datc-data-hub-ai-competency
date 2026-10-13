@@ -1,10 +1,10 @@
-﻿# AI Data Engineering
+# AI Data Engineering
 
 ### AI Competency
 
-AI-enabled Data Engineers design, build, operate, and govern the data foundations and data agents that power enterprise AI. They combine core data engineering with AI-assisted development, intelligent ingestion, automated transformation, agentic orchestration, data quality automation, and AI-ready data architecture.
+AI Data Engineers design, build, run, and manage the data systems and data agents that power enterprise AI. They combine traditional data engineering with AI-assisted development, automated data processing, data quality checks, and AI-ready data design..
 
-Data agents are a defining capability of this role. They use metadata, lineage, policies, business context, and approved tools to discover sources, profile data, generate or optimize pipelines, validate quality, investigate failures, enrich catalogues, and coordinate multi-step data workflows. RAG, embeddings, chunking, semantic retrieval, and vector stores remain important patterns, but they are treated as specific AI data products within the broader agentic data ecosystem.
+Data agents are a key part of this role. They use metadata, data lineage, policies, and business rules to help automate data tasks. They can find data sources, profile data, build or improve pipelines, check data quality, investigate issues, and update data catalogs.
 
 **Primary AI tools:** GitHub Copilot · Claude Code · Snowflake Cortex · Amazon Bedrock · Azure AI Services · Google Cloud AI
 
@@ -15,13 +15,13 @@ Data agents are a defining capability of this role. They use metadata, lineage, 
 AI Data Engineers are architects and builders of the enterprise data ecosystem that powers analytics, machine learning, GenAI applications, and autonomous data operations. They own pipeline design, platform integration, data-agent engineering, data quality, governance, observability, and trusted AI-ready data delivery.
 
 ???+ success "What success looks like"
-    - AI tools are embedded in regular engineering work and produce measurable improvements in delivery speed, quality, reliability, or operating effort
+    - AI tools are used in daily work and clearly improve speed, quality, and reliability
     - Repetitive tasks such as code scaffolding, testing, validation, documentation, profiling, and incident triage are automated where appropriate
     - Data agents are applied to relevant lifecycle stages, with explicit objectives, approved tools, bounded actions, and clear escalation paths
     - RAG and retrieval pipelines are implemented when required, with governed ingestion, chunking, embeddings, metadata, access controls, and retrieval evaluation
     - Every AI-generated artefact is reviewed and validated at the level required by its risk and production impact
     - High-impact actions use approval gates, least-privilege access, logging, traceability, rollback, and human accountability
-    - Reusable patterns, tests, agent templates, and runbooks are adopted by the team
+    - Teams reuse patterns, tests, and templates to work more efficiently
     - Data products remain clean, governed, observable, trustworthy, and fit for analytics and AI consumption
     - Peers use your guidance to adopt AI and data-agent practices safely and effectively
 ### Core AI Data Engineering Capabilities
@@ -32,7 +32,7 @@ AI Data Engineers are architects and builders of the enterprise data ecosystem t
 
     ---
 
-    Use AI coding assistants and platform copilots to accelerate SQL and Python development, pipeline scaffolding, transformation logic, test generation, configuration, code explanation and refactoring, technical documentation, and troubleshooting.
+    Use AI tools to help write SQL, Python, tests, and documentation faster.
 
     AI-generated output follows the same engineering, review, testing, security, and deployment standards as human-written output.
 
@@ -40,9 +40,9 @@ AI Data Engineers are architects and builders of the enterprise data ecosystem t
 
     ---
 
-    Design, configure, build, integrate, and govern data agents that can:
+    Build and manage agents that help automate data tasks like analysis, validation, and pipeline updates:
 
-    - interpret a defined engineering objective;
+    - understand the task, find relevant data, plan steps, use tools, and report results;
     - identify relevant metadata, data assets, and policies;
     - create an execution plan;
     - select and invoke approved tools;
@@ -127,6 +127,20 @@ The appropriate tier depends on risk, reversibility, data sensitivity, operation
 
 !!! warning "Design principle"
     If a task can be solved reliably with deterministic automation, use deterministic automation. Agents are for work that requires interpretation, context, planning, or tool selection.
+
+### ⚠️ Mandatory Requirement (Applies to all levels)
+
+The following training requirements are **mandatory for all AI Proficiency Levels (P1–P5)** and must be completed as part of role progression:
+
+- **Agentic AI Ecosystem Tools — Level 3A**
+- **Agentic AI Frameworks — Level 3B**
+- **Agentic AI Deep Dive — Level 4A**
+
+These trainings are considered **foundational capabilities** for working with AI-assisted and agentic data engineering systems.  
+No proficiency level (P1–P5) can be formally considered achieved without completion of these mandatory trainings.
+
+---
+
 ### Career Progression
 
 ??? info "Career Progression"
@@ -134,11 +148,11 @@ The appropriate tier depends on risk, reversibility, data sensitivity, operation
 
     | AI Proficiency | Typical career alignment | Primary scope |
     |---|---|---|
-    | P1 — AI Assisted | L12 Associate | Individual task |
-    | P2 — AI Accelerated | L11 Analyst | Defined pipeline or engineering area |
-    | P3 — Agentic Data Engineering | L10 Senior Analyst · L9 Specialist | End-to-end solution or reusable pattern |
-    | P4 — Integrated and Governed AI | L8 Associate Manager · L7 Manager | Project, platform, or engineering practice |
-    | P5 — Enterprise Agentic Data Strategy | Architect · recognised enterprise authority | Cross-platform or enterprise ecosystem |
+    | P1 — AI Assisted | L12 Associate | Individual tasks (assisted execution)  |
+    | P2 — AI Accelerated | L11 Analyst | Defined pipelines or components |
+    | P3 — Agentic Data Engineering | L10 Senior Analyst · L9 Specialist | End-to-end solutions, reusable patterns, small systems |
+    | P4 — Integrated and Governed AI | L8 Associate Manager · L7 Manager | Team delivery, platforms, governance & standards |
+    | P5 — Enterprise Agentic Data Strategy | Architect | Enterprise architecture, cross-domain systems & strategy |
 
     > Career level alone does not prove AI proficiency. Completing training alone does not prove AI proficiency. The assigned level must be supported by recent, relevant, independently reviewable evidence.
 
@@ -512,126 +526,98 @@ Courses, certifications, self-assessments, and badges may support an assessment,
 
 === "Evidence Quality Criteria"
 
-    Evidence should be recent enough to represent current capability, relevant to the requested level, attributable to the candidate, independently reviewable, supported by measurable or observable outcomes, compliant with security and confidentiality requirements, and complete enough to demonstrate both implementation and validation.
+    Evidence should be:
+    - recent enough to reflect current capability
+    - relevant to the requested level
+    - clearly attributable to the candidate
+    - independently reviewable
+    - supported by measurable or observable outcomes
+    - compliant with security and confidentiality rules
+    - complete enough to show both implementation and validation
 
 === "Assessment Rules"
 
-    1. A candidate must meet the expectations for the requested level and all lower levels.
-    2. A single training course cannot establish proficiency.
-    3. A single prototype does not normally prove P4 or P5 capability.
-    4. Evidence must demonstrate both capability and responsible execution.
-    5. Production evidence is preferred; production-representative evidence may be accepted when production access is unavailable.
-    6. For AI-assisted work, the engineer's own decisions, review, and corrections must be visible.
-    7. The assessor may request a demonstration, technical discussion, or additional evidence.
-    8. The final level should reflect consistently demonstrated capability, not one exceptional example.
-    9. Platform-specific expertise is assessed separately from transferable engineering capability.
-    10. Assessments should be reviewed periodically as the technology and framework evolve.
+    1. A candidate must meet all requirements for the target level and lower levels.
+    2. A single training course is not enough to demonstrate proficiency.
+    3. A single prototype is not sufficient for P4 or P5 levels.
+    4. Evidence must show both capability and responsible execution.
+    5. Production evidence is preferred; realistic examples may be accepted when production is not available.
+    6. For AI-assisted work, the candidate’s own decisions and corrections must be visible.
+    7. Assessors may request a demo or additional evidence if needed.
+    8. Final level is based on consistent performance, not isolated examples.
+    9. Platform-specific skills are assessed separately from general engineering capability.
+    10. Assessments should be reviewed periodically as the framework evolves.
 
     !!! note "On measurement"
-        Measuring competency reliably is the hardest part of this framework. The first cycles should be treated as calibration rather than final judgement — the purpose is to make expectations explicit, give people a concrete path, and improve the model based on how it behaves in real assessments.
+    Competency assessment is inherently difficult.
+
+    Early assessments should be treated as calibration, not final decisions.
+
+    The goal is to clarify expectations and improve consistency over time.
 
 === "Assessment Process"
 
-    1. Self-assessment — the candidate selects a proposed level and maps evidence to each dimension.
-    2. Evidence review — an assessor reviews relevance, ownership, recency, scope, validation, and outcomes.
-    3. Technical discussion or demonstration — the candidate explains design, decisions, controls, limitations, and lessons learned.
-    4. Calibration — the assessor compares the evidence with examples from similar roles and levels.
+    1. Self-assessment — candidate chooses a level and maps evidence.
+    2. Evidence review — reviewer checks relevance, ownership, and results.
+    3. Technical discussion — candidate explains design choices, decisions, and trade-offs.
+    4. Calibration — assessment is compared with similar roles and standards.
     5. Decision — recorded as confirmed, provisionally confirmed, or development required.
-    6. Development plan — gaps translated into practical activities, mentoring, training, or project opportunities.
-    7. Periodic reassessment — revisited when responsibilities, technology, or evidence materially change.
+    6. Development plan — gaps are translated into actions (training, mentoring, projects).
+    7. Reassessment — review is repeated when there is meaningful progress or change.
 ### Suggested Metrics
 
 === "Delivery"
 
-    - Engineering cycle-time reduction
-    - Time saved on repetitive tasks
-    - Pipeline development lead time
-    - Documentation coverage
-    - Test generation coverage
-    - Reusable component adoption
+    - Faster delivery of pipelines and features
+    - Less time spent on repetitive work
+    - Shorter pipeline build and change cycles
+    - Better documentation and test coverage
+    - More reuse of components and patterns
 
 === "Quality"
 
-    - Defects detected before release
-    - Reconciliation success rate
-    - False-positive and false-negative rates
-    - Data quality rule coverage
-    - Incident recurrence reduction
-    - Retrieval relevance and groundedness where applicable
+    - Fewer issues found after release
+    - Higher success rate in data reconciliation
+    - More accurate quality rules and validations
+    - Fewer incidents repeating over time
+    - Better accuracy in retrieval / AI outputs (when applicable)
 
-=== "Operational"
 
-    - Mean time to detect
-    - Mean time to diagnose
-    - Mean time to recover
-    - Agent success rate
-    - Escalation rate
-    - Rollback rate
-    - Latency · reliability · resource and token cost
-    - Manual intervention rate
+=== "Operations"
+
+    - Faster detection, diagnosis, and recovery of issues
+    - Higher success rate of automated agents or processes
+    - Lower need for manual intervention
+    - Better system stability (latency, reliability, cost)
 
 === "Adoption & Value"
 
-    - Number of active users
-    - Number of projects using approved patterns
-    - Reuse rate
-    - User satisfaction
-    - Business value delivered
-    - Hours of manual effort avoided
-    - Platform cost avoided or optimized
+    - More active users of tools and patterns
+    - Higher reuse of approved frameworks
+    - Improved user satisfaction
+    - Reduced manual effort (time saved)
+    - Cost savings or efficiency gains
 
     !!! warning
         Metrics should be selected for the use case. A larger number of agents or automated actions is not, by itself, evidence of value. Value is shown by less rework, earlier detection, faster recovery, lower cost, and no loss of control.
 
 === "Governance"
 
-    - **Agents with accountable owners** — ownership completeness
-    - **Agents with approved access profiles** — access-control discipline
-    - **Agents with documented autonomy tiers** — clarity of permitted behaviour
-    - **Agents with evaluation datasets** — testability and trustworthiness
-    - **Agents with operational runbooks** — operational readiness
-    - **Policy-violation rate** — effectiveness of guardrails
-    - **Unapproved tool-call rate** — boundary enforcement
-    - **Audit-trail completeness** — traceability
-    - **Approval-control effectiveness** — human oversight quality
+    - **Accountable ownership** — each agent has a clear owner
+    - **Approved access** — agents only use allowed data and permissions
+    - **Defined autonomy levels** — clear boundaries of what each agent can do
+    - **Evaluation datasets** — agents are tested and validated consistently
+    - **Runbooks available** — operational steps are documented and usable
+    - **Policy compliance rate** — how often agents follow rules correctly
+    - **Blocked or invalid actions rate** — how often unsafe actions are prevented
+    - **Traceability** — all actions can be tracked and reviewed
+    - **Human oversight effectiveness** — quality of approvals and control checks
 
 ---
-
-### Framework Governance
-
-This framework is intended to evolve through practical use.
-
-Review cycle: after initial pilot assessments · when major platform capabilities change · when new security, privacy, regulatory, or client requirements emerge · when assessors interpret levels inconsistently · at least annually.
-
-Framework owners are responsible for maintaining proficiency definitions, approving changes, validating assessor guidance, curating evidence examples, resolving level-calibration questions, retiring outdated tools or training, and communicating framework changes.
-
-Versioning: each published version records version number · publication date · framework owner · summary of changes · approved exceptions · next planned review date.
-
-Continuous improvement: feedback from practitioners, assessors, platform owners, security teams, governance teams, and delivery leadership is captured and used to improve role descriptions, level boundaries, evidence requirements, training recommendations, governance controls, and platform-specific implementation guidance.
 
 ??? warning "Initial adoption"
 
     During the initial adoption period, proficiency decisions should be treated as calibrated development assessments rather than permanent labels. The purpose of the framework is to clarify expectations, guide learning, and build trusted capability. Changes are expected once the framework is used in real assessments and real projects.
-### My AI Proficiency Level
-
-???+ success "Your recommended level"
-    Based on the courses and evidence you have confirmed above, your recommended level is calculated automatically.
-
-    The link below opens the Power Apps tool where you can officially update your level in the team tracker.
-
-    [Update my proficiency level in Power Apps →](https://apps.powerapps.com/play/e/default-e0793d39-0939-496d-b129-198edd916feb/a/1ebb5678-2daf-410b-9987-241ca4c1bf31?tenantId=e0793d39-0939-496d-b129-198edd916feb&hint=aa9dd1a0-47d8-4647-92f4-b5a98d6ddb93&sourcetime=1788268219883&source=portal){ .ps-update-link target="_blank" }
-
-<div class="proficiency-summary"
-     data-p1-mandatory='["de-p1-tq-agentic","de-p1-github-copilot","de-p1-agent-awareness"]'
-     data-p2-mandatory='["de-p2-reinvention","de-p2-3a","de-p2-3b","de-p2-snowflake-foundations","de-p2-snowflake-coco"]'
-     data-p3-mandatory='["de-p3-agentic-deep-dive","de-p3-agent-engineering","de-p3-ai-evaluation","de-p3-ai-security","de-p3-platform-ai"]'
-     data-p4-mandatory='["de-p4-agentic-arch","de-p4-responsible-ai","de-p4-platform-ops","de-p4-ai-strategy","de-p4-leadership"]'
-     data-p5-ids='["de-p5-strategy","de-p5-governance","de-p5-operating-model","de-p5-roadmap","de-p5-adoption","de-p5-standards","de-p5-outcomes","de-p5-sponsorship","de-p5-thought-leadership","de-p5-maintenance"]'
-     data-p5-threshold="3"
-     data-update-url="https://apps.powerapps.com/play/e/default-e0793d39-0939-496d-b129-198edd916feb/a/1ebb5678-2daf-410b-9987-241ca4c1bf31?tenantId=e0793d39-0939-496d-b129-198edd916feb&hint=aa9dd1a0-47d8-4647-92f4-b5a98d6ddb93&sourcetime=1788268219883&source=portal">
-</div>
-
----
 
 ### Summary
 

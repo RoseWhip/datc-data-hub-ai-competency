@@ -332,5 +332,5 @@ Builds and governs the reporting and insight layer — dashboards, semantic mode
      data-p4-mandatory='["p4-pbi-adv-df","p4-pbi-claude","p4-pbi-git","p4-pbi-cross"]'
      data-p5-ids='["p5-rfp","p5-framework","p5-data-ready","p5-coaching","p5-presentation","p5-workstream","p5-community"]'
      data-p5-threshold="3"
-     data-update-url="https://apps.powerapps.com/play/e/default-e0793d39-0939-496d-b129-198edd916feb/a/1ebb5678-2daf-410b-9987-241ca4c1bf31?tenantId=e0793d39-0939-496d-b129-198edd916feb&hint=aa9dd1a0-47d8-4647-92f4-b5a98d6ddb93&sourcetime=1788268219883&source=portal">
+     data-update-url="https://forms.cloud.microsoft/r/97G6CwDtxv">
 </div>

@@ -1,6 +1,6 @@
 # DATC Data Hub
 
-The **DATC Data Platform** is Accenture Bucharest's data delivery hub — part of Danubia ATC and the global Data practice. Two domains work together across the full data and AI value chain: **Data Engineering** builds the pipelines, cloud platforms, and data readiness layer that enables AI; **Data Analytics** delivers the KPI frameworks, dashboards, and AI-powered insights on top.
+The **DATC Data Platform** is part of Danubia ATC and the global Data practice. Two domains work together across the full data and AI value chain: **Data Engineering** builds and operates the data platforms that enable analytics and AI, while **Data Analytics** transforms data into business insights through reporting, dashboards, and AI-driven solutions.
 
 ---
 

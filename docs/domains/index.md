@@ -1,6 +1,6 @@
 # Domains
 
-The DATC Data Platform is organised into two complementary domains that together cover the full data value chain — from raw ingestion through to decision-ready insights. Each domain has its own tech stack, career progression, and delivery patterns, but both are essential and deeply connected.
+The DATC Data Platform is organised into two complementary domains that work together across the full data lifecycle, from data ingestion to business insights. Each domain has its own focus, skills, and technologies, but both are essential for successful delivery.
 
 ---
 
@@ -12,7 +12,7 @@ The DATC Data Platform is organised into two complementary domains that together
 
     **Data Engineers** build the foundation that powers analytics, reporting, and AI applications.
     
-    They own the full ETL/ELT cycle from raw source ingestion through to clean, validated, analytics-ready data.
+    They build and maintain the data platforms and pipelines that deliver reliable, analytics-ready data.
 
     **Primary platforms:** Oracle · Snowflake · Azure Data Factory · Databricks · Microsoft Fabric · dbt
 
@@ -22,7 +22,7 @@ The DATC Data Platform is organised into two complementary domains that together
 
     **Front-end data delivery** — dashboards, semantic models, reporting, data visualisation, and BI architecture.
 
-    **Data Analyst** turn data into decisions and drive insight across the organisation.
+    **Data Analyst** transform data into business insights through reporting, dashboards, and analytics solutions.
     
     They own the reporting layer from requirements through design, build, and production support.
 

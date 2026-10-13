@@ -1,6 +1,6 @@
-﻿# Assets
+# Assets
 
-A collection of project examples, tools, and resources from the DATC Data Platform team — covering both Data Engineering and Data Analytics work.
+A collection of project examples, tools, and resources delivered by the DATC Data Platform team across Data Engineering and Data Analytics.
 
 ## Data Engineering — Project Examples
 
@@ -10,22 +10,22 @@ A collection of project examples, tools, and resources from the DATC Data Platfo
     - **Outcome:** Scalable MDM with fully automated ETL; integrated with enterprise systems at scale
 
 ??? example "Big Pharma — Snowflake Data Vault + Tableau"
-    - **What was built:** Migration of Alteryx pipelines to Snowflake data vault; ETL loading large datasets from Oracle, SQL Server, SAP HANA; Tableau dashboards; data governance with Collibra and Imuta
+    - **What was built:** Migration of legacy data pipelines to Snowflake Data Vault, including integration of enterprise data sources, Tableau reporting, and data governance capabilities.
     - **Tech:** Oracle · GitLab · DBT · Snowflake · SQL Server · SAP HANA · Tableau · Collibra · Python
     - **Outcome:** Scalable data vault architecture; standardized ETL; governed data for analytics consumption
 
 ??? example "Aerospace & Defense — Azure Cloud DWH + Power BI"
-    - **What was built:** Full Azure-based DWH using Data Vault; ETL via Azure Data Factory; Power BI on Azure SQL DWH; CI/CD pipeline for cube rights management
+    - **What was built:** Delivery of an Azure-based enterprise data warehouse, including automated data integration, reporting capabilities, and CI/CD-driven deployment processes.
     - **Tech:** Azure Data Lake · ADF · Azure SQL · Azure Analysis Services · SSIS · Power BI · DevOps
     - **Outcome:** End-to-end cloud DWH; automated rights management via CI/CD; Agile delivery
 
 ??? example "Telecom — Data Vault 2.0 with dbt + Snowflake"
-    - **What was built:** Data Vault 2.0 modeling (hubs, links, satellites, snapshots); dbt for transformation; GitLab CI pipelines; full version control and deployment workflow
+    - **What was built:** Implementation of a modern Data Vault architecture with automated transformations, deployment pipelines, and version-controlled development practices.
     - **Tech:** SQL · Python · dbt · Snowflake · GitLab
     - **Outcome:** Standardized modern data engineering stack; reproducible, tested, documented transformations
 
 ??? example "Construction — Microsoft Fabric Medallion Architecture"
-    - **What was built:** ETL/ELT flows using notebooks and pipelines following the Medallion architecture (bronze/silver/gold layers); PySpark transformations
+    - **What was built:** Development of data ingestion and transformation pipelines using Microsoft Fabric and a scalable Lakehouse architecture.
     - **Tech:** Microsoft Fabric · PySpark · Spark SQL
     - **Outcome:** Cloud-native Lakehouse pattern on Fabric; scalable layered data processing
 

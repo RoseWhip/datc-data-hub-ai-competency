@@ -1,15 +1,19 @@
 # AI Proficiency Framework
 
-This page reference how every practitioner in Data Engineering and Data Analytics is expected to adopt and grow their AI capability. 
-It covers the proficiency scale, required levels by role, domain-specific guidance, and curated learning paths.
+This page explains how practitioners in Data Engineering and Data Analytics are expected to develop and apply AI capabilities in their day-to-day work.
+It includes the proficiency scale, role expectations, domain-specific guidance, and recommended learning paths.
 Data Engineering builds the foundation. Data Analytics delivers the insight. Both are essential and both must evolve with AI.
+
+### My AI Proficiency Level
+
+[Update my proficiency level →](https://forms.cloud.microsoft/r/97G6CwDtxv){ .ps-update-link target="_blank" }
 
 
 ## AI Integration by Domain
 
 <div class="grid cards" markdown>
 -   :material-database-outline: **AI Data Engineering**
-  Back-end data infrastructure — pipelines, cloud platforms, data architecture, storage, governance, and AI-ready data layers. Data Engineers build the foundation that powers analytics, reporting, and AI applications.
+  Back-end data infrastructure including platforms, pipelines, governance, and AI-ready data foundations.
 
     [Go →](ai-data-engineering.md){ .md-button }
     
@@ -27,7 +31,7 @@ The platform follows a continuous improvement cycle across five objectives:
 
 | Objective | What It Means |
 |---|---|
-| **Increase AI proficiency** | Move practitioners from Assisted → Agentic → Integrated → Governed across both domains |
+| **Increase AI proficiency** | Move practitioners from basic AI usage to advanced, governed AI adoption |
 | **Standardize AI usage** | Establish consistent AI practices across Data Engineering and Data Analytics roles |
 | **Adopt responsibly** | Roll out Copilot, LLMs, and RAG on Snowflake, AWS, Azure, and GCP with proper validation |
 | **Enable AI-ready platforms** | Build data platforms that power AI-driven delivery in Power BI and Tableau |
