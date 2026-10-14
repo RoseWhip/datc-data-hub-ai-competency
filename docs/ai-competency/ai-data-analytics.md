@@ -4,7 +4,11 @@
 
 AI-enabled Analytics practitioners enhance reporting, insight generation, and decision support by leveraging AI and LLM tools. They combine traditional BI methods with AI-assisted data transformation, KPI creation, anomaly detection, and automated storytelling. The role accelerates analytical tasks, improves accuracy, and enables smarter decision-making across the organisation.
 
-**Primary AI tools:** Power BI with Copilot · Fabric Copilot · Tableau Cloud with AI · AWS QuickSight with Amazon Q
+**Primary AI tools:** 
+
+<figure markdown="span">
+  ![Image title](../graphs/primary-ai-ecosystem-analytics.png)
+</figure>
 
 ## AI Role Details
 
