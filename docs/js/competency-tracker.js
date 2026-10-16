@@ -45,6 +45,13 @@
       p3: JSON.parse(el.dataset.p3Mandatory || "[]"),
       p4: JSON.parse(el.dataset.p4Mandatory || "[]")
     };
+
+    var p3ids      = JSON.parse(el.dataset.p3Ids || "[]");
+    var p3threshold = parseInt(el.dataset.p3Threshold || "3", 10);
+
+    var p4ids      = JSON.parse(el.dataset.p4Ids || "[]");
+    var p4threshold = parseInt(el.dataset.p4Threshold || "3", 10);
+
     var p5ids      = JSON.parse(el.dataset.p5Ids || "[]");
     var p5threshold = parseInt(el.dataset.p5Threshold || "3", 10);
     var updateUrl  = el.dataset.updateUrl || "";
@@ -58,6 +65,8 @@
     };
 
     function levelComplete(lvl) {
+      if (lvl === "p3") return p3ids.filter(isDone).length >= p3threshold;
+      if (lvl === "p4") return p4ids.filter(isDone).length >= p4threshold;
       if (lvl === "p5") return p5ids.filter(isDone).length >= p5threshold;
       return mandatory[lvl].length > 0 && mandatory[lvl].every(isDone);
     }
@@ -87,7 +96,7 @@
       html = '<div class="ps-box ps-empty">'
            + '<span class="ps-icon">○</span>'
            + '<div class="ps-body"><strong>No items confirmed yet</strong>'
-           + '<p>Complete courses and check them off above — your recommended level will appear here.</p>'
+           + '<p>Complete courses and check them off below — your recommended level will appear here.</p>'
            + '</div></div>';
     } else if (achieved) {
       html = '<div class="ps-box ps-ok">'

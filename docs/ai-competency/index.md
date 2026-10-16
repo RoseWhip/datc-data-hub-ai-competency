@@ -1,17 +1,30 @@
 # AI Proficiency Framework
-
-This page explains how practitioners in Data Engineering and Data Analytics are expected to develop and apply AI capabilities in their day-to-day work.
-It includes the proficiency scale, role expectations, domain-specific guidance, and recommended learning paths.
-Data Engineering builds the foundation. Data Analytics delivers the insight. Both are essential and both must evolve with AI.
-
 [Update my proficiency level](https://forms.cloud.microsoft/r/97G6CwDtxv){ .ps-update-link target="_blank" }
-
 ---
 ## AI Proficiency & Role Progression
 
 <figure markdown="span">
   ![Image title](../graphs/AI%20Proficiency%20Scale%20and%20Roles.png)
 </figure>
+
+---
+
+
+### :material-star: Mandatory Requirement (Applies to all levels)
+
+The following training requirements are **mandatory for all AI Proficiency Levels (P1–P5)** and must be completed as part of role progression:
+
+???+ tip "Mandatory Trainings Source " 
+    | Training | Link | ✓ |
+    |:---:|---|:---:|
+    **Agentic AI Ecosystem Tools: Level 3A** | [3A](https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000) | <input type="checkbox" class="course-done" data-level="de-p0" data-mandatory="true" data-id="de-p0-3A"> |
+    **Agentic AI Frameworks: Level 3B** | [3B](https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000) | <input type="checkbox" class="course-done" data-level="de-p0" data-mandatory="true" data-id="de-p0-3B"> |
+    **Agentic AI Deep Dive: Level 4A** | [4A](https://wd103.myworkday.com/accenture/learning/course/f3afdb6e64bc1001679f3521c8420000) | <input type="checkbox" class="course-done" data-level="de-p0" data-mandatory="true" data-id="de-p0-4A"> |
+
+    <div class="level-progress" data-level="de-p0"></div>
+
+These trainings are considered **foundational capabilities** for working with AI-assisted and agentic data engineering systems.  
+No proficiency level (P1–P5) can be formally considered achieved without completion of these mandatory trainings.
 
 ---
 

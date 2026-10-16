@@ -105,7 +105,7 @@
 }
 
 /* Proficiency Summary */
-.proficiency-summary { margin: 2rem 0; }
+.proficiency-summary { margin: 2rem 0; position: sticky; top: 58px; background: #f3ebff; z-index: 10;}
 .ps-box {
   display: flex;
   align-items: flex-start;
