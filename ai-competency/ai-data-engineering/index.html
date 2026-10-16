@@ -1,0 +1,1344 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Learning paths and competency frameworks for the DATC Data Platform (DEVI)">
+      
+      
+        <meta name="author" content="DATC Data Platform Team">
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../ai-data-analytics/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/accenture-favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>AI Data Engineering - DATC Data Hub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/accenture.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ai-data-engineering" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="DATC Data Hub" class="md-header__button md-logo" aria-label="DATC Data Hub" data-md-component="logo">
+      
+  <img src="../../assets/accenture-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DATC Data Hub
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              AI Data Engineering
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  AI Competency
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../domains/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Domains
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="DATC Data Hub" class="md-nav__button md-logo" aria-label="DATC Data Hub" data-md-component="logo">
+      
+  <img src="../../assets/accenture-logo.png" alt="logo">
+
+    </a>
+    DATC Data Hub
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Competency
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI Competency
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Data Engineering
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Data Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ai-competency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Competency
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-role-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Role Details
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-ai-data-engineering-capabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core AI Data Engineering Capabilities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mandatory-requirement-applies-to-all-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mandatory Requirement (Applies to all levels)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#career-progression" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Career Progression
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-proficiency-levels-p1-p4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Proficiency Levels P1 - P4
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-proficiency-levels-p5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Proficiency Levels P5
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assessment
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Suggested Metrics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai-data-analytics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Data Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../domains/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Domains
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Domains
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/data-engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/data-analytics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="ai-data-engineering">AI Data Engineering</h1>
+<h3 id="ai-competency">AI Competency</h3>
+<p>AI Data Engineers design, build, run, and manage the data systems and data agents that power enterprise AI. They combine traditional data engineering with AI-assisted development, automated data processing, data quality checks, and AI-ready data design..</p>
+<p>Data agents are a key part of this role. They use metadata, data lineage, policies, and business rules to help automate data tasks. They can find data sources, profile data, build or improve pipelines, check data quality, investigate issues, and update data catalogs.</p>
+<p><strong>Primary AI tools:</strong> </p>
+<figure>
+  <img alt="Image title" src="../../graphs/primary-ai-ecosystem.png" />
+</figure>
+<p><strong>Primary data-agent capabilities:</strong> source discovery · profiling · pipeline generation · testing · reconciliation · anomaly detection · incident investigation · metadata enrichment · lineage analysis · policy enforcement · workload optimization</p>
+<h3 id="ai-role-details">AI Role Details</h3>
+<p>AI Data Engineers are architects and builders of the enterprise data ecosystem that powers analytics, machine learning, GenAI applications, and autonomous data operations. They own pipeline design, platform integration, data-agent engineering, data quality, governance, observability, and trusted AI-ready data delivery.</p>
+<figure>
+  <img alt="Image title" src="../../graphs/ai-data-engineer-role.png" />
+</figure>
+<h3 id="core-ai-data-engineering-capabilities">Core AI Data Engineering Capabilities</h3>
+<div class="grid cards">
+<ul>
+<li>
+<p><strong>AI-Assisted Engineering</strong></p>
+<p><figure markdown="span">
+<img alt="Image title" src="../../graphs/core-ai-data-engineering-capabilitiest.png" />
+</figure></p>
+</li>
+</ul>
+</div>
+<!-- ### Responsible Data-Agent Engineering
+
+All data-agent solutions follow these principles.
+
+| Principle | Meaning |
+|---|---|
+| Bounded autonomy | The agent only works within a clear scope, with defined tools, limits, and escalation paths |
+| Least-privilege access | The agent only gets the minimum permissions needed to do its job |
+| Human accountability | Every agent and important decision has a clearly defined owner |
+| Human review by risk | The more risky or irreversible the action, the deeper the human review |
+| Deterministic validation | Results are checked using tests, rules, and structured validation methods |
+| Traceability | All actions, inputs, and outputs are logged and can be reviewed |
+| Observability | Agent behavior is monitored through clear metrics (quality, performance, risk) |
+| Safe failure | When something goes wrong, the agent stops safely without corrupting data or state |
+| Rollback and recovery | Systems can undo or recover from high-impact changes safely |
+| Separation of duties | One agent cannot create, approve, and deploy the same change |
+| Data protection | All security, privacy, and retention rules are always enforced |
+
+#### Agent Autonomy Tiers
+
+| Tier | What the agent does | Data engineering example | Control level |
+|---|---|---|---|
+| A0 — Inform | Explains or summarizes information | Explains why a pipeline failed | User reviews the output |
+| A1 — Recommend | Suggests actions or improvements | Suggests data quality rules | Human approves |
+| A2 — Draft |  Creates a draft or artifact | Writes SQL, dbt model, or config | Code review + test |
+| A3 — Execute (with approval) | Runs actions after explicit approval | Updates metadata after sign-off | Approval + logging + rollback |
+| A4 — Controlled execution | Runs within strict safety rules | Retries failed loads automatically | Policies + monitoring + rollback |
+| A5 — High autonomy | Coordinates complex workflows across systems | Optimizes workloads automatically | Strong governance + explicit authorization |
+
+The appropriate tier depends on risk, reversibility, data sensitivity, operational impact, and regulatory context. Higher proficiency does not mean unrestricted autonomy is appropriate. -->
+
+<h3 id="mandatory-requirement-applies-to-all-levels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span> Mandatory Requirement (Applies to all levels)</h3>
+<p>The following training requirements are <strong>mandatory for all AI Proficiency Levels (P1–P5)</strong> and must be completed as part of role progression:</p>
+<details class="tip" open="open">
+<summary>Mandatory Trainings Source </summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Training</th>
+<th style="text-align: center;">Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Agentic AI Ecosystem Tools: Level 3A</strong></td>
+<td style="text-align: center;"><a href="https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000">3A</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Agentic AI Frameworks: Level 3B</strong></td>
+<td style="text-align: center;"><a href="https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000">3B</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Agentic AI Deep Dive: Level 4A</strong></td>
+<td style="text-align: center;"><a href="https://wd103.myworkday.com/accenture/learning/course/f3afdb6e64bc1001679f3521c8420000">4A</a></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p>These trainings are considered <strong>foundational capabilities</strong> for working with AI-assisted and agentic data engineering systems.<br />
+No proficiency level (P1–P5) can be formally considered achieved without completion of these mandatory trainings.</p>
+<hr />
+<h3 id="career-progression">Career Progression</h3>
+<div class="proficiency-summary"
+        data-p1-mandatory='["de-p1-tq-agentic", "de-p1-3A"]'
+        data-p2-mandatory='["de-p2-reinvention","de-p2-3B"]'
+        data-p3-mandatory='["de-p3-4A"]'
+        data-p3-ids='["de-p3-cloud", "de-p3-epe", "de-p3-de"]'
+        data-p3-threshold="1"
+        data-p4-mandatory='["de-p4-4B"]'
+        data-p4-ids='["de-p4-azure", "de-p4-snowflake", "de-p4-databricks", "de-p4-aws", "de-p4-gcp"]'
+        data-p4-threshold="3"
+        data-p5-ids='["de-p5-strategy","de-p5-governance","de-p5-operating-model","de-p5-roadmap","de-p5-adoption","de-p5-standards","de-p5-outcomes", ""]'
+        data-p5-threshold="5"
+
+        data-update-url="https://forms.cloud.microsoft/r/97G6CwDtxv">
+</div>
+
+<details class="info">
+<summary>Career Progression</summary>
+<p>AI proficiency is assessed independently from career level. The mapping below shows the typical alignment — it is guidance, not an automatic entitlement.</p>
+<table>
+<thead>
+<tr>
+<th>AI Proficiency</th>
+<th>Typical career alignment</th>
+<th>Primary scope</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P1 — AI Assisted</td>
+<td>L12 Associate</td>
+<td>Individual tasks (assisted execution)</td>
+</tr>
+<tr>
+<td>P2 — AI Accelerated</td>
+<td>L11 Analyst</td>
+<td>Defined pipelines or components</td>
+</tr>
+<tr>
+<td>P3 — Agentic Data Engineering</td>
+<td>L10 Senior Analyst · L9 Specialist</td>
+<td>End-to-end solutions, reusable patterns, small systems</td>
+</tr>
+<tr>
+<td>P4 — Integrated and Governed AI</td>
+<td>L8 Associate Manager · L7 Manager</td>
+<td>Team delivery, platforms, governance &amp; standards</td>
+</tr>
+<tr>
+<td>P5 — Enterprise Agentic Data Strategy</td>
+<td>Architect</td>
+<td>Enterprise architecture, cross-domain systems &amp; strategy</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Career level alone does not prove AI proficiency. Completing training alone does not prove AI proficiency. The assigned level must be supported by recent, relevant, independently reviewable evidence.</p>
+</blockquote>
+</details>
+<details class="note">
+<summary>Legend</summary>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span> <strong>mandatory</strong> &nbsp;·&nbsp; <span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span> <strong>optional</strong></p>
+<ul>
+<li><strong>Mandatory courses</strong> must all be completed for the level to show as achieved (green bar).</li>
+<li><strong>Optional courses</strong> count toward your progress and stack — completing enough optionals can satisfy the level threshold even if a mandatory is missing.</li>
+<li>Your progress is saved in the browser. Ticking a box here does not auto-update the team tracker — use the Power Apps link at the bottom to officially record your level.</li>
+</ul>
+</details>
+<h3 id="ai-proficiency-levels-p1-p4">AI Proficiency Levels P1 - P4</h3>
+<details class="abstract" open="open">
+<summary>Recommended Trainings</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">P1 - AI Assisted - L12</th>
+<th>Training</th>
+<th>Category</th>
+<th>Link</th>
+<th style="text-align: center;">✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>TQ Agentic AI</td>
+<td>General</td>
+<td><a href="https://www.udacity.com/learning-plan/tq-at-accenture">Udacity link</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p1" data-mandatory="true" data-id="de-p1-tq-agentic"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Agentic AI Ecosystem Tools: Level 3A</td>
+<td>General</td>
+<td><a href="https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000">3A</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p1" data-mandatory="true" data-id="de-p1-3A"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span></td>
+<td>GitHub Copilot with Python</td>
+<td>General</td>
+<td><a href="https://wd103.myworkday.com/accenture/email-universal/inst/22699$266024/rel-task/2998$35104.htmld">Workday link</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p1" data-mandatory="false" data-id="de-p1-github-copilot"></td>
+</tr>
+</tbody>
+</table>
+<p><div class="level-progress" data-level="de-p1"></div></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">P2 - AI Accelerated - L11</th>
+<th>Training</th>
+<th>Category</th>
+<th>Link</th>
+<th style="text-align: center;">✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Reinvention with Agentic AI</td>
+<td>General</td>
+<td><a href="https://wd103.myworkday.com/accenture/learning/program/1fe39d5dd5db1000e3b5953839700000">Workday link</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p2" data-mandatory="true" data-id="de-p2-reinvention"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Agentic AI Frameworks: Level 3B</td>
+<td>General</td>
+<td><a href="https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000">3B</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p2" data-mandatory="true" data-id="de-p2-3B"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji opt"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span></td>
+<td>AI &amp; Data - Foundations: Data Engineering</td>
+<td>Data Engineering</td>
+<td><a href="https://wd103.myworkday.com/accenture/learning/program/c33d0658891a1000d639a19ed6730000">Workday link</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p2" data-id="de-p2-de-foundations"></td>
+</tr>
+</tbody>
+</table>
+<p><div class="level-progress" data-level="de-p2"></div></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">P3 - Agentic Data Engineering - L10 · L9</th>
+<th>Training</th>
+<th>Category</th>
+<th>Link</th>
+<th style="text-align: center;">✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Agentic AI Deep Dive: Level 4A</td>
+<td>General</td>
+<td><a href="https://wd103.myworkday.com/accenture/learning/course/f3afdb6e64bc1001679f3521c8420000">4A</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p3" data-mandatory="true" data-id="de-p3-4A"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88z"/></svg></span></td>
+<td>Cloud and Custom Engineers</td>
+<td>based on the delivery role</td>
+<td><a href="https://wd103.myworkday.com/accenture/d/inst/1$23455/23455$6811.htmld">Workday</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p3" data-id="de-p3-cloud"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88z"/></svg></span></td>
+<td>Data Engineers</td>
+<td>based on the delivery role</td>
+<td><a href="https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000?type=2d29754fdb8e100008b50ff6bc94003b">Workday</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p3" data-id="de-p3-de"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88z"/></svg></span></td>
+<td>Enterprise Platform Engineers</td>
+<td>based on the delivery role</td>
+<td><a href="https://wd103.myworkday.com/accenture/learning/program/24ebe20396871000ba0841a54e7e0000?type=2d29754fdb8e100008b50ff6bc94003b">Workday</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p3" data-id="de-p3-epe"></td>
+</tr>
+</tbody>
+</table>
+<p><div class="level-progress" data-level="de-p3"></div></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">P4 - AI Governed - L8 · L7</th>
+<th>Training</th>
+<th>Category</th>
+<th>Link</th>
+<th style="text-align: center;">✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span></td>
+<td>Level 4B - Agentic AI in TDLC for Delivery Practitioners</td>
+<td>4B</td>
+<td><a href="https://wd103.myworkday.com/accenture/learning/course/50516479d5331000b089e2d3dce10000?type=9882927d138b100019b6a2df1a46018b">Workday link</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-mandatory="true" data-id="de-p4-4B"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88z"/></svg></span></td>
+<td>Azure AI and Data Agents</td>
+<td>based on the delivery role</td>
+<td><a href="https://www.udacity.com/org/accenture-all-access/course/building-ai-agents-with-microsoft-azure--cd14706">Udacity</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-mandatory="true" data-id="de-p4-azure"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88z"/></svg></span></td>
+<td>Snowflake Cortex and Data Agents</td>
+<td>based on the delivery role</td>
+<td><a href="https://wd103.myworkday.com/accenture/learning/course/4d9e73686bf81000ca451bfbd0a80000?type=9882927d138b100019b928e75843018d">Workday</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-mandatory="true" data-id="de-p4-snowflake"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88z"/></svg></span></td>
+<td>Databricks AI and Data Intelligence</td>
+<td>based on the delivery role</td>
+<td><a href="https://wd103.myworkday.com/accenture/learning/course/064b19e8a22e1001cfb51b735e410001?type=9882927d138b100019b928e75843018d">Workday</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-databricks"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88z"/></svg></span></td>
+<td>AWS Bedrock and Agentic Workflows</td>
+<td>based on the delivery role</td>
+<td><a href="https://www.udacity.com/org/accenture-all-access/course/building-generative-ai-applications-with-amazon-bedrock--cd13926">Udacity</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-aws"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88z"/></svg></span></td>
+<td>Google Cloud AI and Data Agents</td>
+<td>based on the delivery role</td>
+<td><a href="https://www.udacity.com/org/accenture-all-access/course/building-agents-with-google-adk-and-vertex-ai--cd14768">Udacity</a></td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-gcp"></td>
+</tr>
+</tbody>
+</table>
+<p><div class="level-progress" data-level="de-p4"></div></p>
+<blockquote>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span> <strong>Mandatory Training:</strong> Complete all required core trainings.
+<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88z"/></svg></span> <strong>Role-Based Training:</strong> Complete the trainings relevant to your delivery role, then <strong>apply</strong> what you’ve learned on your project to mark them complete.
+<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg></span> Optionals build your progress score.</p>
+</blockquote>
+</details>
+<h3 id="ai-proficiency-levels-p5">AI Proficiency Levels P5</h3>
+<p><em>✦ Architect · recognised enterprise authority</em></p>
+<details class="abstract">
+<summary>Evidence</summary>
+<p>P5 is demonstrated through strategic contribution, not course completion. Mark the items that apply to your experience.</p>
+<table>
+<thead>
+<tr>
+<th>Evidence</th>
+<th style="text-align: center;">✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enterprise strategy or target architecture</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-strategy"></td>
+</tr>
+<tr>
+<td>Approved governance principles</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-governance"></td>
+</tr>
+<tr>
+<td>Cross-platform operating model</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-operating-model"></td>
+</tr>
+<tr>
+<td>Strategic investment or roadmap decisions</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-roadmap"></td>
+</tr>
+<tr>
+<td>Adoption across multiple portfolios or business domains</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-adoption"></td>
+</tr>
+<tr>
+<td>Enterprise-wide standards</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-standards"></td>
+</tr>
+<tr>
+<td>Measurable strategic outcomes</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-outcomes"></td>
+</tr>
+<tr>
+<td>Executive or architecture-board sponsorship</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-sponsorship"></td>
+</tr>
+<tr>
+<td>External publications, industry contribution, or recognised thought leadership</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-thought-leadership"></td>
+</tr>
+<tr>
+<td>Evidence that standards have been maintained and improved over time</td>
+<td style="text-align: center;"><input type="checkbox" class="course-done" data-level="de-p5" data-mandatory="true" data-id="de-p5-maintenance"></td>
+</tr>
+</tbody>
+</table>
+</details>
+<div class="level-progress" data-level="de-p5" data-threshold="3"></div>
+
+<h3 id="assessment">Assessment</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Assessment Rules</label><label for="__tabbed_1_2">Assessment Process</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>You must meet all requirements for the target level and below.</li>
+<li>Training alone does not prove proficiency.</li>
+<li>A single prototype is not enough for P4 or P5.</li>
+<li>Evidence must show both delivery and responsible execution.</li>
+<li>Real production work is preferred; realistic examples may be accepted if needed.</li>
+<li>AI-assisted work must clearly show the candidate’s decisions and corrections.</li>
+<li>Assessors may request additional evidence or a demo.</li>
+<li>Levels are based on consistent performance, not isolated examples.</li>
+<li>Platform-specific skills are assessed separately from general capability.</li>
+</ol>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>Self-assessment — choose a level and map evidence.</li>
+<li>Evidence review — check relevance, ownership, and results.</li>
+<li>Technical discussion — explain decisions and trade-offs.</li>
+<li>Calibration — compare with similar roles and standards.</li>
+<li>Decision — confirm, adjust, or request development.</li>
+<li>Development plan — define gaps and improvement actions.</li>
+<li>Reassessment — repeat when new evidence is available.</li>
+</ol>
+</div>
+</div>
+</div>
+<hr />
+<div class="admonition note">
+<p class="admonition-title">On measurement</p>
+<p>Assessment is not exact and requires judgement. Early evaluations are for calibration, not final classification. The goal is consistency and continuous improvement over time.</p>
+</div>
+<h3 id="suggested-metrics">Suggested Metrics</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:5"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><input id="__tabbed_2_4" name="__tabbed_2" type="radio" /><input id="__tabbed_2_5" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Delivery</label><label for="__tabbed_2_2">Quality</label><label for="__tabbed_2_3">Operations</label><label for="__tabbed_2_4">Adoption &amp; Value</label><label for="__tabbed_2_5">Governance</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>Faster delivery of pipelines and features</li>
+<li>Less time spent on repetitive work</li>
+<li>Shorter pipeline build and change cycles</li>
+<li>Better documentation and test coverage</li>
+<li>More reuse of components and patterns</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>Fewer issues found after release</li>
+<li>Higher success rate in data reconciliation</li>
+<li>More accurate quality rules and validations</li>
+<li>Fewer incidents repeating over time</li>
+<li>Better accuracy in retrieval / AI outputs (when applicable)</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>Faster detection, diagnosis, and recovery of issues</li>
+<li>Higher success rate of automated agents or processes</li>
+<li>Lower need for manual intervention</li>
+<li>Better system stability (latency, reliability, cost)</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>More active users of tools and patterns</li>
+<li>Higher reuse of approved frameworks</li>
+<li>Improved user satisfaction</li>
+<li>Reduced manual effort (time saved)</li>
+<li>Cost savings or efficiency gains</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Metrics should be selected for the use case. A larger number of agents or automated actions is not, by itself, evidence of value. Value is shown by less rework, earlier detection, faster recovery, lower cost, and no loss of control.</p>
+</div>
+</div>
+<div class="tabbed-block">
+<ul>
+<li><strong>Accountable ownership</strong> — each agent has a clear owner</li>
+<li><strong>Approved access</strong> — agents only use allowed data and permissions</li>
+<li><strong>Defined autonomy levels</strong> — clear boundaries of what each agent can do</li>
+<li><strong>Evaluation datasets</strong> — agents are tested and validated consistently</li>
+<li><strong>Runbooks available</strong> — operational steps are documented and usable</li>
+<li><strong>Policy compliance rate</strong> — how often agents follow rules correctly</li>
+<li><strong>Blocked or invalid actions rate</strong> — how often unsafe actions are prevented</li>
+<li><strong>Traceability</strong> — all actions can be tracked and reviewed</li>
+<li><strong>Human oversight effectiveness</strong> — quality of approvals and control checks</li>
+</ul>
+</div>
+</div>
+</div>
+<hr />
+<details class="warning">
+<summary>Initial adoption</summary>
+<p>During the initial adoption period, proficiency decisions should be treated as calibrated development assessments rather than permanent labels. The purpose of the framework is to clarify expectations, guide learning, and build trusted capability. Changes are expected once the framework is used in real assessments and real projects.</p>
+</details>
+<h3 id="summary">Summary</h3>
+<p>AI Data Engineering is not defined only by the use of copilots, RAG pipelines, or generative AI tools. It is defined by the ability to combine strong data engineering foundations with AI-assisted development, intelligent and agentic data operations, governed use of data agents, deterministic validation, observability and operational ownership, measurable engineering and business outcomes, and responsible scaling from task-level assistance to enterprise capability.</p>
+<p>The progression from P1 to P5 represents increasing autonomy, complexity, scope, impact, governance responsibility, and organisational influence.</p>
+<p>The framework should remain evidence-based, adaptable, and continuously improved as real projects and technologies evolve.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+  
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; Copyright © 2026 Accenture. All rights reserved.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+  <div class="datc-brand-footer">
+    <div class="datc-brand-footer__inner">
+      <img src="../../assets/accenture-logo.png" class="datc-brand-footer__logo" alt="Accenture" />
+      <span class="datc-brand-footer__wordmark">accenture</span>
+      <span class="datc-brand-footer__divider">|</span>
+      <span class="datc-brand-footer__team">DATC Data Hub</span>
+    </div>
+  </div>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.expand", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../js/competency-tracker.js"></script>
+      
+    
+  </body>
+</html>
