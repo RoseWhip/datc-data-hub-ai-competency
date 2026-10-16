@@ -70,13 +70,11 @@ The appropriate tier depends on risk, reversibility, data sensitivity, operation
 The following training requirements are **mandatory for all AI Proficiency Levels (P1–P5)** and must be completed as part of role progression:
 
 ???+ tip "Mandatory Trainings Source " 
-    | Training | Link | ✓ |
-    |:---:|---|:---:|
-    **Agentic AI Ecosystem Tools: Level 3A** | [3A](https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000) | <input type="checkbox" class="course-done" data-level="de-p0" data-mandatory="true" data-id="de-p0-3A"> |
-    **Agentic AI Frameworks: Level 3B** | [3B](https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000) | <input type="checkbox" class="course-done" data-level="de-p0" data-mandatory="true" data-id="de-p0-3B"> |
-    **Agentic AI Deep Dive: Level 4A** | [4A](https://wd103.myworkday.com/accenture/learning/course/f3afdb6e64bc1001679f3521c8420000) | <input type="checkbox" class="course-done" data-level="de-p0" data-mandatory="true" data-id="de-p0-4A"> |
-
-    <div class="level-progress" data-level="de-p0"></div>
+    | Training | Link |
+    |:---:|:---:|
+    **Agentic AI Ecosystem Tools: Level 3A** | [3A](https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000) 
+    **Agentic AI Frameworks: Level 3B** | [3B](https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000) 
+    **Agentic AI Deep Dive: Level 4A** | [4A](https://wd103.myworkday.com/accenture/learning/course/f3afdb6e64bc1001679f3521c8420000) 
 
 These trainings are considered **foundational capabilities** for working with AI-assisted and agentic data engineering systems.  
 No proficiency level (P1–P5) can be formally considered achieved without completion of these mandatory trainings.
@@ -84,6 +82,23 @@ No proficiency level (P1–P5) can be formally considered achieved without compl
 ---
 
 ### Career Progression
+
+
+<div class="proficiency-summary"
+        data-p1-mandatory='["de-p1-tq-agentic", "de-p1-3A"]'
+        data-p2-mandatory='["de-p2-reinvention","de-p2-3B"]'
+        data-p3-mandatory='["de-p3-4A"]'
+        data-p3-ids='["de-p3-cloud", "de-p3-epe", "de-p3-de"]'
+        data-p3-threshold="1"
+        data-p4-mandatory='["de-p4-4B"]'
+        data-p4-ids='["de-p4-azure", "de-p4-snowflake", "de-p4-databricks", "de-p4-aws", "de-p4-gcp"]'
+        data-p4-threshold="3"
+        data-p5-ids='["de-p5-strategy","de-p5-governance","de-p5-operating-model","de-p5-roadmap","de-p5-adoption","de-p5-standards","de-p5-outcomes", ""]'
+        data-p5-threshold="5"
+
+        data-update-url="https://forms.cloud.microsoft/r/97G6CwDtxv">
+</div>
+
 
 ??? info "Career Progression"
     AI proficiency is assessed independently from career level. The mapping below shows the typical alignment — it is guidance, not an automatic entitlement.
@@ -110,41 +125,43 @@ No proficiency level (P1–P5) can be formally considered achieved without compl
     | P1 - AI Assisted - L12  | Training | Category | Link | ✓ |
     |:---:|---|---|---|:---:|
     | :material-star: | TQ Agentic AI | General | [Udacity link](https://www.udacity.com/learning-plan/tq-at-accenture) | <input type="checkbox" class="course-done" data-level="de-p1" data-mandatory="true" data-id="de-p1-tq-agentic"> |
-    | :material-star: | GitHub Copilot with Python | General | [Workday link](https://wd103.myworkday.com/accenture/email-universal/inst/22699$266024/rel-task/2998$35104.htmld) | <input type="checkbox" class="course-done" data-level="de-p1" data-mandatory="true" data-id="de-p1-github-copilot"> |
-    | :material-circle-outline:{ .opt } | AI & Data - Foundations: Data Engineering | Data Engineering | [Workday link](https://wd103.myworkday.com/accenture/learning/program/c33d0658891a1000d639a19ed6730000) | <input type="checkbox" class="course-done" data-level="de-p1" data-id="de-p1-de-foundations"> |
+    | :material-star: | Agentic AI Ecosystem Tools: Level 3A | General | [3A](https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000) | <input type="checkbox" class="course-done" data-level="de-p1" data-mandatory="true" data-id="de-p1-3A"> |
+    | :material-circle-outline:{ .opt } | GitHub Copilot with Python | General | [Workday link](https://wd103.myworkday.com/accenture/email-universal/inst/22699$266024/rel-task/2998$35104.htmld) | <input type="checkbox" class="course-done" data-level="de-p1" data-mandatory="false" data-id="de-p1-github-copilot"> |
+    
 
     <div class="level-progress" data-level="de-p1"></div>
 
     | P2 - AI Accelerated - L11 | Training | Category | Link | ✓ |
     |:---:|---|---|---|:---:|
     | :material-star: | Reinvention with Agentic AI | General | [Workday link](https://wd103.myworkday.com/accenture/learning/program/1fe39d5dd5db1000e3b5953839700000)| <input type="checkbox" class="course-done" data-level="de-p2" data-mandatory="true" data-id="de-p2-reinvention"> |
-    | :material-star: | Snowflake Foundations to AI | Snowflake | [Link](https://learn.snowflake.com/en/courses/ILT-GENAI/) | <input type="checkbox" class="course-done" data-level="de-p2" data-mandatory="true" data-id="de-p2-snowflake-foundations"> |
-    | :material-star: | Snowflake Cortex Code (CoCo) | Snowflake | [Workday link](https://wd103.myworkday.com/accenture/learning/course/4d9e73686bf81000ca451bfbd0a80000) | <input type="checkbox" class="course-done" data-level="de-p2" data-mandatory="true" data-id="de-p2-snowflake-coco"> |
-    | :material-circle-outline:{ .opt } | Get started with data engineering on Azure | Cloud | [Link](https://learn.microsoft.com/en-us/training/paths/get-started-data-engineering/) | <input type="checkbox" class="course-done" data-level="de-p2" data-id="de-p2-azure"> |
-    | :material-circle-outline:{ .opt } | AWS Training – Digital Training | Cloud | [Link](https://aws.amazon.com/training/digital/) | <input type="checkbox" class="course-done" data-level="de-p2" data-id="de-p2-aws"> |
-    | :material-circle-outline:{ .opt } | Google Cloud Data Engineering & Analytics | Cloud | [Link](https://cloud.google.com/learn/training/data-engineering-and-analytics) | <input type="checkbox" class="course-done" data-level="de-p2" data-id="de-p2-gcp"> |
+    | :material-star: | Agentic AI Frameworks: Level 3B | General | [3B](https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000) | <input type="checkbox" class="course-done" data-level="de-p2" data-mandatory="true" data-id="de-p2-3B"> |
+    | :material-circle-outline:{ .opt } | AI & Data - Foundations: Data Engineering | Data Engineering | [Workday link](https://wd103.myworkday.com/accenture/learning/program/c33d0658891a1000d639a19ed6730000) | <input type="checkbox" class="course-done" data-level="de-p2" data-id="de-p2-de-foundations"> |
 
     <div class="level-progress" data-level="de-p2"></div>
 
     | P3 - Agentic Data Engineering - L10 · L9  | Training | Category | Link | ✓ |
     |:---:|---|---|---|:---:|
-    | :material-star: | Reinvention with Agentic AI | General | [Workday link](https://wd103.myworkday.com/accenture/learning/program/1fe39d5dd5db1000e3b5953839700000)| <input type="checkbox" class="course-done" data-level="de-p3" data-mandatory="true" data-id="de-p3-reinvention"> |
-    | :material-star: | AWS Training – Digital Training​ | AWS | [Link](https://aws.amazon.com/training/digital/)| <input type="checkbox" class="course-done" data-level="de-p3" data-mandatory="true" data-id="de-p3-reinvention"> |
+    | :material-star: |Agentic AI Deep Dive: Level 4A | General | [4A](https://wd103.myworkday.com/accenture/learning/course/f3afdb6e64bc1001679f3521c8420000) | <input type="checkbox" class="course-done" data-level="de-p3" data-mandatory="true" data-id="de-p3-4A"> |
+    | :material-hexagon:| Cloud and Custom Engineers | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/d/inst/1$23455/23455$6811.htmld) | <input type="checkbox" class="course-done" data-level="de-p3" data-id="de-p3-cloud"> |
+    | :material-hexagon:| Data Engineers | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000?type=2d29754fdb8e100008b50ff6bc94003b) | <input type="checkbox" class="course-done" data-level="de-p3" data-id="de-p3-de"> |
+    | :material-hexagon: | Enterprise Platform Engineers | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/learning/program/24ebe20396871000ba0841a54e7e0000?type=2d29754fdb8e100008b50ff6bc94003b) | <input type="checkbox" class="course-done" data-level="de-p3" data-id="de-p3-epe"> |
 
     <div class="level-progress" data-level="de-p3"></div>
     
     | P4 - AI Governed - L8 · L7  | Training | Category | Link | ✓ |
     |:---:|---|---|---|:---:|
-    | :material-star: | Reinvention with Agentic AI | General | [Workday link](https://wd103.myworkday.com/accenture/learning/program/1fe39d5dd5db1000e3b5953839700000)| <input type="checkbox" class="course-done" data-level="de-p4" data-mandatory="true" data-id="de-p4-reinvention"> |
-    | :material-circle-outline:{ .opt } | Azure AI and Data Agents | depending on project stack | [Udacity](https://www.udacity.com/org/accenture-all-access/course/building-ai-agents-with-microsoft-azure--cd14706)| <input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-azure"> |
-    | :material-circle-outline:{ .opt } | Snowflake Cortex and Data Agents | depending on project stack | | <input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-snowflake"> |
-    | :material-circle-outline:{ .opt } | Databricks AI and Data Intelligence | depending on project stack | | <input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-databricks"> |
-    | :material-circle-outline:{ .opt } | AWS Bedrock and Agentic Workflows | depending on project stack | [Udacity](https://www.udacity.com/org/accenture-all-access/course/building-generative-ai-applications-with-amazon-bedrock--cd13926)| <input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-aws"> |
-    | :material-circle-outline:{ .opt } | Google Cloud AI and Data Agents | depending on project stack | [Udacity](https://www.udacity.com/org/accenture-all-access/course/building-agents-with-google-adk-and-vertex-ai--cd14768) | <input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-gcp"> |
+    | :material-star: | Level 4B - Agentic AI in TDLC for Delivery Practitioners | 4B | [Workday link](https://wd103.myworkday.com/accenture/learning/course/50516479d5331000b089e2d3dce10000?type=9882927d138b100019b6a2df1a46018b)| <input type="checkbox" class="course-done" data-level="de-p4" data-mandatory="true" data-id="de-p4-4B"> |
+    | :material-hexagon: | Azure AI and Data Agents | based on the delivery role | [Udacity](https://www.udacity.com/org/accenture-all-access/course/building-ai-agents-with-microsoft-azure--cd14706)| <input type="checkbox" class="course-done" data-level="de-p4" data-mandatory="true" data-id="de-p4-azure"> |
+    | :material-hexagon: | Snowflake Cortex and Data Agents | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/learning/course/4d9e73686bf81000ca451bfbd0a80000?type=9882927d138b100019b928e75843018d)| <input type="checkbox" class="course-done" data-level="de-p4" data-mandatory="true" data-id="de-p4-snowflake"> |
+    | :material-hexagon: | Databricks AI and Data Intelligence | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/learning/course/064b19e8a22e1001cfb51b735e410001?type=9882927d138b100019b928e75843018d)| <input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-databricks"> |
+    | :material-hexagon: | AWS Bedrock and Agentic Workflows | based on the delivery role  | [Udacity](https://www.udacity.com/org/accenture-all-access/course/building-generative-ai-applications-with-amazon-bedrock--cd13926)| <input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-aws"> |
+    | :material-hexagon: | Google Cloud AI and Data Agents | based on the delivery role  | [Udacity](https://www.udacity.com/org/accenture-all-access/course/building-agents-with-google-adk-and-vertex-ai--cd14768) | <input type="checkbox" class="course-done" data-level="de-p4" data-id="de-p4-gcp"> |
 
     <div class="level-progress" data-level="de-p4"></div>
 
-    > :material-star: mandatory :material-circle-outline: optional — complete all mandatory courses to pass this level; optionals build your progress score.
+    > :material-star: **Mandatory Training:** Complete all required core trainings.
+    > :material-hexagon: **Role-Based Training:** Complete the trainings relevant to your delivery role, then **apply** what you’ve learned on your project to mark them complete.
+    > :material-circle-outline: Optionals build your progress score.
 
 
 ### AI Proficiency Levels P5
