@@ -23,6 +23,115 @@ Builds and governs the reporting and insight layer — dashboards, semantic mode
     - Your collaboration with Data Engineering on AI-powered pipelines is active and ongoing
     - Peers come to you for guidance on effective AI use in reporting and BI workflows
 
+### :material-star: Mandatory Requirement (Applies to all levels)
+
+The following training requirements are **mandatory for all AI Proficiency Levels (P1–P5)** and must be completed as part of role progression:
+
+???+ tip "Mandatory Trainings Source " 
+    | Training | Link |
+    |:---:|:---:|
+    **Agentic AI Ecosystem Tools: Level 3A** | [3A](https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000) 
+    **Agentic AI Frameworks: Level 3B** | [3B](https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000) 
+    **Agentic AI Deep Dive: Level 4A** | [4A](https://wd103.myworkday.com/accenture/learning/course/f3afdb6e64bc1001679f3521c8420000) 
+
+These trainings are considered **foundational capabilities** for working with AI-assisted and agentic data engineering systems.  
+No proficiency level (P1–P5) can be formally considered achieved without completion of these mandatory trainings.
+
+---
+
+### Career Progression
+
+
+<div class="proficiency-summary"
+        data-p1-mandatory='["da-p1-tq-agentic", "da-p1-3A"]'
+        data-p2-mandatory='["da-p2-reinvention","da-p2-3B"]'
+        data-p3-mandatory='["da-p3-4A"]'
+        data-p3-ids='["da-p3-copilot", "da-p3-aq", "da-p3-tbe"]'
+        data-p3-threshold="1"
+        data-p4-mandatory='["da-p4-4B"]'
+        data-p4-ids='["da-p4-azure", "da-p4-snowflake", "da-p4-databricks", "da-p4-aws", "da-p4-gcp"]'
+        data-p4-threshold="3"
+        data-p5-ids='["da-p5-strategy","da-p5-governance","da-p5-operating-model","da-p5-roadmap","da-p5-adoption","da-p5-standards","da-p5-outcomes", ""]'
+        data-p5-threshold="5"
+
+        data-update-url="https://forms.cloud.microsoft/r/97G6CwDtxv">
+</div>
+
+
+### AI Proficiency Levels P1 - P4
+
+???+ abstract "Recommended Trainings"
+    | P1 - AI Assisted - L12  | Training | Category | Link | ✓ |
+    |:---:|---|---|---|:---:|
+    | :material-star: | TQ Agentic AI | General | [Udacity link](https://www.udacity.com/learning-plan/tq-at-accenture) | <input type="checkbox" class="course-done" data-level="de-p1" data-mandatory="true" data-id="da-p1-tq-agentic"> |
+    | :material-star: | Agentic AI Ecosystem Tools: Level 3A | General | [3A](https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000) | <input type="checkbox" class="course-done" data-level="da-p1" data-mandatory="true" data-id="da-p1-3A"> |
+    | :material-circle-outline:{ .opt } | GitHub Copilot with Python | General | [Workday link](https://wd103.myworkday.com/accenture/email-universal/inst/22699$266024/rel-task/2998$35104.htmld) | <input type="checkbox" class="course-done" data-level="da-p1" data-mandatory="false" data-id="da-p1-github-copilot"> |
+    
+
+    <div class="level-progress" data-level="da-p1"></div>
+
+    | P2 - AI Accelerated - L11 | Training | Category | Link | ✓ |
+    |:---:|---|---|---|:---:|
+    | :material-star: | Reinvention with Agentic AI | General | [Workday link](https://wd103.myworkday.com/accenture/learning/program/1fe39d5dd5db1000e3b5953839700000)| <input type="checkbox" class="course-done" data-level="da-p2" data-mandatory="true" data-id="da-p2-reinvention"> |
+    | :material-star: | Agentic AI Frameworks: Level 3B | General | [3B](https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000) | <input type="checkbox" class="course-done" data-level="da-p2" data-mandatory="true" data-id="da-p2-3B"> |
+    | :material-circle-outline:{ .opt } | Smart Narratives, Q&A Visuals & Copilot in Power BI | Power BI | [Workday link](https://wd103.myworkday.com/accenture/learning/course/4432b89894741021cce0f1fc6d8f0000?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="da-p2" data-id="da-p2-copilot-powerbi-1"> |
+    | :material-circle-outline:{ .opt } | Extend data insights with Power BI Copilot | Power BI | [Workday link](https://wd103.myworkday.com/accenture/learning/course/17668f036a52103c4df9fca05bb70000?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="da-p2" data-id="da-p2-copilot-powerbi-2"> |
+
+    <div class="level-progress" data-level="da-p2"></div>
+
+    | P3 - Agentic Data Analytics - L10 · L9  | Training | Category | Link | ✓ |
+    |:---:|---|---|---|:---:|
+    | :material-star: |Agentic AI Deep Dive: Level 4A | General | [4A](https://wd103.myworkday.com/accenture/learning/course/f3afdb6e64bc1001679f3521c8420000) | <input type="checkbox" class="course-done" data-level="da-p3" data-mandatory="true" data-id="da-p3-4A"> |
+    | :material-hexagon:| Advanced Features: Copilot for Smart Narratives & DAX Queries | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/d/inst/1$23455/23455$6811.htmld) | <input type="checkbox" class="course-done" data-level="da-p3" data-id="da-p3-copilot"> |
+    | :material-hexagon:| Amazon Q: Generative AI-powered Assistant Learning Plan | based on the delivery role  | [AWS](https://aws.amazon.com/q/) | <input type="checkbox" class="course-done" data-level="de-p3" data-id="da-p3-aq"> |
+    | :material-hexagon: | Tableau Agentic Analytics | based on the delivery role  | [Tableau](https://www.tableau.com/agentic-analytics) | <input type="checkbox" class="course-done" data-level="de-p3" data-id="da-p3-tbe"> |
+
+    <div class="level-progress" data-level="da-p3"></div>
+    
+    | P4 - AI Governed - L8 · L7  | Training | Category | Link | ✓ |
+    |:---:|---|---|---|:---:|
+    | :material-star: | Level 4B - Agentic AI in TDLC for Delivery Practitioners | 4B | [Workday link](https://wd103.myworkday.com/accenture/learning/course/50516479d5331000b089e2d3dce10000?type=9882927d138b100019b6a2df1a46018b)| <input type="checkbox" class="course-done" data-level="da-p4" data-mandatory="true" data-id="da-p4-4B"> |
+    | :material-hexagon: | Azure AI and Data Agents | based on the delivery role | [Udacity](https://www.udacity.com/org/accenture-all-access/course/building-ai-agents-with-microsoft-azure--cd14706)| <input type="checkbox" class="course-done" data-level="da-p4" data-id="da-p4-azure"> |
+    | :material-hexagon: | Snowflake Cortex and Data Agents | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/learning/course/4d9e73686bf81000ca451bfbd0a80000?type=9882927d138b100019b928e75843018d)| <input type="checkbox" class="course-done" data-level="da-p4" data-id="da-p4-snowflake"> |
+    | :material-hexagon: | Databricks AI and Data Intelligence | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/learning/course/064b19e8a22e1001cfb51b735e410001?type=9882927d138b100019b928e75843018d)| <input type="checkbox" class="course-done" data-level="da-p4" data-id="da-p4-databricks"> |
+    | :material-hexagon: | AWS Bedrock and Agentic Workflows | based on the delivery role  | [Udacity](https://www.udacity.com/org/accenture-all-access/course/building-generative-ai-applications-with-amazon-bedrock--cd13926)| <input type="checkbox" class="course-done" data-level="da-p4" data-id="da-p4-aws"> |
+    | :material-hexagon: | Google Cloud AI and Data Agents | based on the delivery role  | [Udacity](https://www.udacity.com/org/accenture-all-access/course/building-agents-with-google-adk-and-vertex-ai--cd14768) | <input type="checkbox" class="course-done" data-level="da-p4" data-id="da-p4-gcp"> |
+
+    <div class="level-progress" data-level="da-p4"></div>
+
+    > :material-star: **Mandatory Training:** Complete all required core trainings.
+    > :material-hexagon: **Role-Based Training:** Complete the trainings relevant to your delivery role, then **apply** what you’ve learned on your project to mark them complete.
+    > :material-circle-outline: Optionals build your progress score.
+
+
+### AI Proficiency Levels P5
+*✦ Architect · recognised enterprise authority*
+??? tip "At this level"
+    Defines enterprise-wide AI analytics practices and governance — acting as the recognised authority on AI-enabled analytics at the practice level.
+
+    - Advises leadership on AI opportunities in decision-making and reporting
+    - Shapes standards and best practices for responsible AI use in analytics
+    - Acts as the recognised authority on AI-enabled analytics — final escalation point for complex design decisions, tool selection, and governance questions
+    - Drives AI adoption across the analytics domain at enterprise scale
+
+    **Confirming at least 3 items in the Evidence section below qualifies as P5.**
+
+??? abstract "Evidence"
+    P5 is demonstrated through strategic contribution, not course completion. Mark the items that apply to your experience.
+
+    | Evidence | ✓ |
+    |---|:---:|
+    | Contributed to an RFP, proposal, or strategic initiative where AI was part of the solution design | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="p5-rfp"> |
+    | Proposed or co-authored an AI integration framework, template, or standard adopted by a team or client | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="p5-framework"> |
+    | Defined or shaped an AI data readiness model or governance approach for a client or internal use | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="p5-data-ready"> |
+    | Coached practitioners through an AI competency milestone (P2→P3 or P3→P4) in a structured way | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="p5-coaching"> |
+    | Presented an AI analytics strategy, approach, or recommendation to client leadership or a senior forum | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="p5-presentation"> |
+    | Owned or co-led the AI workstream on a delivery engagement — accountable for standards and quality | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="p5-workstream"> |
+    | Contributed to a community of practice, internal article, or external forum on AI in analytics | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="p5-community"> |
+
+<div class="level-progress" data-level="da-p5" data-threshold="3"></div>
+
+
 ??? info "Career Progression"
     === "Associate"
 
@@ -105,7 +214,7 @@ Builds and governs the reporting and insight layer — dashboards, semantic mode
 
 ---
 
-## AI Trainings
+<!--## AI Trainings
 
 ---
 
@@ -192,7 +301,7 @@ Builds and governs the reporting and insight layer — dashboards, semantic mode
         | :material-star: | Extend data insights with Power BI Copilot | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/17668f036a52103c4df9fca05bb70000?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-mandatory="true" data-id="p3-pbi-extend"> |
         | :material-star: | Advanced Features: Copilot for Smart Narratives & DAX Queries | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/d6f892e7525b10007e238a6d23430001?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-mandatory="true" data-id="p3-pbi-adv-smart"> |
         | :material-star: | Analyze Data in Power BI with Copilot | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/e895784cdec710011c577460e1a40001?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-mandatory="true" data-id="p3-pbi-analyze"> |
-        | :material-circle-outline:{ .opt } | Advanced Features: Copilot for Dataflows & Reports | Power BI | [Workday](https://wd103.myworkday.com/accenture/learning/course/634ead4bb865100206c2ad4175a00001?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-adv-df"> |
+        | :material-circle-outline:{ .opt } | Tableau Agentic Analytics | tableau | [Workday](https://www.tableau.com/datafam-gallery) | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-adv-df"> |
         | :material-circle-outline:{ .opt } | Agentic Coding Assistant using Claude Code | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-claude"> |
         | :material-circle-outline:{ .opt } | GitHub Copilot with Python | Agentic 4A | — | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-git"> |
         | :material-circle-outline:{ .opt } | Working with Data Agents | Cross-track | — | <input type="checkbox" class="course-done" data-level="p3" data-track="pbi" data-id="p3-pbi-data-agents"> |
@@ -286,37 +395,7 @@ Builds and governs the reporting and insight layer — dashboards, semantic mode
 
 <div class="level-progress" data-level="p4" data-threshold="4"></div>
 
----
-
-### P5 — Governed AI
-*✦ Architect*
-
-??? tip "At this level"
-    Defines enterprise-wide AI analytics practices and governance — acting as the recognised authority on AI-enabled analytics at the practice level.
-
-    - Advises leadership on AI opportunities in decision-making and reporting
-    - Shapes standards and best practices for responsible AI use in analytics
-    - Acts as the recognised authority on AI-enabled analytics — final escalation point for complex design decisions, tool selection, and governance questions
-    - Drives AI adoption across the analytics domain at enterprise scale
-
-    **Confirming at least 3 items in the Evidence section below qualifies as P5.**
-
-??? abstract "Evidence"
-    P5 is demonstrated through strategic contribution, not course completion. Mark the items that apply to your experience.
-
-    | Evidence | ✓ |
-    |---|:---:|
-    | Contributed to an RFP, proposal, or strategic initiative where AI was part of the solution design | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="p5-rfp"> |
-    | Proposed or co-authored an AI integration framework, template, or standard adopted by a team or client | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="p5-framework"> |
-    | Defined or shaped an AI data readiness model or governance approach for a client or internal use | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="p5-data-ready"> |
-    | Coached practitioners through an AI competency milestone (P2→P3 or P3→P4) in a structured way | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="p5-coaching"> |
-    | Presented an AI analytics strategy, approach, or recommendation to client leadership or a senior forum | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="p5-presentation"> |
-    | Owned or co-led the AI workstream on a delivery engagement — accountable for standards and quality | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="p5-workstream"> |
-    | Contributed to a community of practice, internal article, or external forum on AI in analytics | <input type="checkbox" class="course-done" data-level="p5" data-mandatory="true" data-id="p5-community"> |
-
-<div class="level-progress" data-level="p5" data-threshold="3"></div>
-
----
+--- -->
 
 > This list will be expanded as the platform matures and new tools are validated.
 
