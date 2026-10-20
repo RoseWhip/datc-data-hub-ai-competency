@@ -74,7 +74,7 @@ The following training requirements are **mandatory for all AI Proficiency Level
     |:---:|:---:|
     **Agentic AI Ecosystem Tools: Level 3A** | [3A](https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000) 
     **Agentic AI Frameworks: Level 3B** | [3B](https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000) 
-    **Agentic AI Deep Dive: Level 4A** | [4A](https://wd103.myworkday.com/accenture/learning/course/f3afdb6e64bc1001679f3521c8420000) 
+    **Agentic AI Deep Dive: Level 4A** | [4A](https://wd103.myworkday.com/accenture/learning/program/c33d0658891a1000d639a19ed6730000?type=2d29754fdb8e100008b50ff6bc94003b) 
 
 These trainings are considered **foundational capabilities** for working with AI-assisted and agentic data engineering systems.  
 No proficiency level (P1–P5) can be formally considered achieved without completion of these mandatory trainings.
@@ -89,7 +89,7 @@ No proficiency level (P1–P5) can be formally considered achieved without compl
         data-p2-mandatory='["de-p2-reinvention","de-p2-3B"]'
         data-p3-mandatory='["de-p3-4A"]'
         data-p3-ids='["de-p3-cloud", "de-p3-epe", "de-p3-de"]'
-        data-p3-threshold="1"
+        data-p3-threshold="2"
         data-p4-mandatory='["de-p4-4B"]'
         data-p4-ids='["de-p4-azure", "de-p4-snowflake", "de-p4-databricks", "de-p4-aws", "de-p4-gcp"]'
         data-p4-threshold="3"
@@ -141,10 +141,10 @@ No proficiency level (P1–P5) can be formally considered achieved without compl
 
     | P3 - Agentic Data Engineering - L10 · L9  | Training | Category | Link | ✓ |
     |:---:|---|---|---|:---:|
-    | :material-star: |Agentic AI Deep Dive: Level 4A | General | [4A](https://wd103.myworkday.com/accenture/learning/course/f3afdb6e64bc1001679f3521c8420000) | <input type="checkbox" class="course-done" data-level="de-p3" data-mandatory="true" data-id="de-p3-4A"> |
-    | :material-hexagon:| Cloud and Custom Engineers | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/d/inst/1$23455/23455$6811.htmld) | <input type="checkbox" class="course-done" data-level="de-p3" data-id="de-p3-cloud"> |
-    | :material-hexagon:| Data Engineers | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000?type=2d29754fdb8e100008b50ff6bc94003b) | <input type="checkbox" class="course-done" data-level="de-p3" data-id="de-p3-de"> |
-    | :material-hexagon: | Enterprise Platform Engineers | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/learning/program/24ebe20396871000ba0841a54e7e0000?type=2d29754fdb8e100008b50ff6bc94003b) | <input type="checkbox" class="course-done" data-level="de-p3" data-id="de-p3-epe"> |
+    | :material-star: |Agentic AI Deep Dive: Anthropic Claude Code | General | [4A](https://wd103.myworkday.com/accenture/learning/course/f3afdb6e64bc1001679f3521c8420000?type=9882927d138b100019b928e75843018d) | <input type="checkbox" class="course-done" data-level="de-p3" data-mandatory="true" data-id="de-p3-4A"> |
+    | :material-hexagon:| Data Engineers | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000?type=2d29754fdb8e100008b50ff6bc94003b) | <input type="checkbox" class="course-done" data-mandatory="true" data-level="de-p3" data-id="de-p3-de"> |
+    | :material-circle-outline:{ .opt } | Cloud and Custom Engineers | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/d/inst/1$23455/23455$6811.htmld) | <input type="checkbox" class="course-done" data-level="de-p3" data-id="de-p3-cloud"> |
+    | :material-circle-outline:{ .opt } | Enterprise Platform Engineers | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/learning/program/24ebe20396871000ba0841a54e7e0000?type=2d29754fdb8e100008b50ff6bc94003b) | <input type="checkbox" class="course-done" data-level="de-p3" data-id="de-p3-epe"> |
 
     <div class="level-progress" data-level="de-p3"></div>
     

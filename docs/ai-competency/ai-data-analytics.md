@@ -32,7 +32,7 @@ The following training requirements are **mandatory for all AI Proficiency Level
     |:---:|:---:|
     **Agentic AI Ecosystem Tools: Level 3A** | [3A](https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000) 
     **Agentic AI Frameworks: Level 3B** | [3B](https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000) 
-    **Agentic AI Deep Dive: Level 4A** | [4A](https://wd103.myworkday.com/accenture/learning/course/f3afdb6e64bc1001679f3521c8420000) 
+    **Agentic AI Deep Dive: Level 4A** | [4A](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) 
 
 These trainings are considered **foundational capabilities** for working with AI-assisted and agentic data engineering systems.  
 No proficiency level (P1–P5) can be formally considered achieved without completion of these mandatory trainings.
@@ -81,7 +81,7 @@ No proficiency level (P1–P5) can be formally considered achieved without compl
 
     | P3 - Agentic Data Analytics - L10 · L9  | Training | Category | Link | ✓ |
     |:---:|---|---|---|:---:|
-    | :material-star: |Agentic AI Deep Dive: Level 4A | General | [4A](https://wd103.myworkday.com/accenture/learning/course/f3afdb6e64bc1001679f3521c8420000) | <input type="checkbox" class="course-done" data-level="da-p3" data-mandatory="true" data-id="da-p3-4A"> |
+    | :material-star: |Agentic AI Deep Dive: Level 4A | General | [4A](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000?type=2d29754fdb8e100008b50ff6bc94003b) | <input type="checkbox" class="course-done" data-level="da-p3" data-mandatory="true" data-id="da-p3-4A"> |
     | :material-hexagon:| Advanced Features: Copilot for Smart Narratives & DAX Queries | based on the delivery role  | [Workday](https://wd103.myworkday.com/accenture/d/inst/1$23455/23455$6811.htmld) | <input type="checkbox" class="course-done" data-level="da-p3" data-id="da-p3-copilot"> |
     | :material-hexagon:| Amazon Q: Generative AI-powered Assistant Learning Plan | based on the delivery role  | [AWS](https://aws.amazon.com/q/) | <input type="checkbox" class="course-done" data-level="de-p3" data-id="da-p3-aq"> |
     | :material-hexagon: | Tableau Agentic Analytics | based on the delivery role  | [Tableau](https://www.tableau.com/agentic-analytics) | <input type="checkbox" class="course-done" data-level="de-p3" data-id="da-p3-tbe"> |
