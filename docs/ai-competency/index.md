@@ -19,7 +19,7 @@ The following training requirements are **mandatory for all AI Proficiency Level
     |:---:|---|:---:|
     **Agentic AI Ecosystem Tools: Level 3A** | [3A](https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000) | <input type="checkbox" class="course-done" data-level="de-p0" data-mandatory="true" data-id="de-p0-3A"> |
     **Agentic AI Frameworks: Level 3B** | [3B](https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000) | <input type="checkbox" class="course-done" data-level="de-p0" data-mandatory="true" data-id="de-p0-3B"> |
-    **Agentic AI Deep Dive: Level 4A** | [4A](https://wd103.myworkday.com/accenture/learning/program/c33d0658891a1000d639a19ed6730000?type=2d29754fdb8e100008b50ff6bc94003b) | <input type="checkbox" class="course-done" data-level="de-p0" data-mandatory="true" data-id="de-p0-4A"> |
+    **Agentic AI Deep Dive: Level 4A** | [4A](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000?type=2d29754fdb8e100008b50ff6bc94003b) | <input type="checkbox" class="course-done" data-level="de-p0" data-mandatory="true" data-id="de-p0-4A"> |
 
     <div class="level-progress" data-level="de-p0"></div>
 

@@ -32,7 +32,7 @@ The following training requirements are **mandatory for all AI Proficiency Level
     |:---:|:---:|
     **Agentic AI Ecosystem Tools: Level 3A** | [3A](https://wd103.myworkday.com/accenture/learning/program/4510d076039210016cc0344f0eeb0000) 
     **Agentic AI Frameworks: Level 3B** | [3B](https://wd103.myworkday.com/accenture/learning/program/9a74c413ff121001288f4f5ca96e0000) 
-    **Agentic AI Deep Dive: Level 4A** | [4A](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000) 
+    **Agentic AI Deep Dive: Level 4A** | [4A](https://wd103.myworkday.com/accenture/learning/program/eca5e091d3641000b8fcc66ddce90000?type=2d29754fdb8e100008b50ff6bc94003b) 
 
 These trainings are considered **foundational capabilities** for working with AI-assisted and agentic data engineering systems.  
 No proficiency level (P1–P5) can be formally considered achieved without completion of these mandatory trainings.
